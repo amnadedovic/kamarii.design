@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamari Dizajn</title>
+    <style>
+        /* Osnovni stil */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header / navigacija */
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        /* Hero sekcija */
+        .hero {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 15px 30px;
+            font-weight: bold;
+        }
+
+        /* Usluge */
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+
+        .service {
+            background-color: #f9f9f9;
+            padding: 30px;
+            margin: 15px;
+            flex: 1 1 250px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .service h3 {
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responzivnost */
+        @media(max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><h2>Kamari Dizajn</h2></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">O Nama</a>
+            <a href="#">Usluge</a>
+            <a href="#">Kontakt</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Dobrodošli u Kamari Dizajn</h1>
+        <p>Moderni dizajn za vaše projekte, jednostavno i profesionalno.</p>
+        <a href="#">Pogledaj Usluge</a>
+    </section>
+
+    <section class="services">
+        <div class="service">
+            <h3>Web Dizajn</h3>
+            <p>Izrada modernih i responzivnih web stranica koje oduševljavaju.</p>
+        </div>
+        <div class="service">
+            <h3>Grafički Dizajn</h3>
+            <p>Kreativne vizuale za društvene mreže, reklame i brendiranje.</p>
+        </div>
+        <div class="service">
+            <h3>Branding</h3>
+            <p>Razvoj identiteta vaše firme kroz logotipe i vizualni stil.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Kamari Dizajn. Sva prava zadržana.</p>
+    </footer>
+</body>
+</html>
